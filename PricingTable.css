@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    height: 100vh;
+    
+}
+.left-con, .middle-con, .right-con {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+    /* padding: 10px 10px; */
+}
+button{
+    background-color: orangered;
+    border-radius: 5px;
+}
+h2{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1rem;
+  }
+  h3,p {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+  }
+
+  @media(max-width:1250px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+   
+    div{
+        margin: 10px 20px;
+        
+    }
+
+    
+  }
